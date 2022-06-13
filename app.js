@@ -1,7 +1,9 @@
-var express = require('express');
-var mysql = require('mysql');
-var cors = require('cors');
-var app = express();
+let express = require('express');
+let mysql = require('mysql');
+let cors = require('cors');
+let app = express();
+const config = require('./config');
+
 
 // Configurar cabeceras y cors
 app.use((req, res, next) => {
@@ -16,12 +18,7 @@ app.use((req, res, next) => {
 app.use(express.json());
 app.use(cors());
 //Establecemos los prámetros de conexión
-var conexion = mysql.createConnection({
-    host:'localhost',
-    user:'root',
-    password:'det123',
-    database:'sucursales_db'
-});
+let conexion = mysql.createConnection(config.db);
 //Conexión a la database
 conexion.connect(function(error){
     if(error){

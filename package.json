@@ -1,18 +1,26 @@
 {
   "name": "apirestnodejs",
   "version": "1.0.0",
-  "description": "",
+  "description": "\"# apinodejs\" \r \"# apinodejs_users\"",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ivan Massenzio",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mysql": "^2.18.1",
-    "sqlite3": "^5.0.8"
-  }
+    "nodemon": "^2.0.16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanmassenzio/AppSucursalesAPI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ivanmassenzio/AppSucursalesAPI/issues"
+  },
+  "homepage": "https://github.com/ivanmassenzio/AppSucursalesAPI#readme"
 }

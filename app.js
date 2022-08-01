@@ -3,7 +3,6 @@ let mysql = require('mysql');
 let cors = require('cors');
 let app = express();
 const config = require('./config');
-const PUERTO = 80
 
 
 // Configurar cabeceras y cors
@@ -43,6 +42,6 @@ app.get('/api/empleados', (req,res)=>{
 });
 
 const puerto = process.env.PORT || 3000;
-app.listen(80, function(){
-    console.log("Servidor Ok en puerto:"+80);
+app.listen(puerto, function(){
+    console.log("Servidor Ok en puerto:"+puerto);
 });

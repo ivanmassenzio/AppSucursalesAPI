@@ -1,0 +1,11 @@
+const config = {
+  db: {
+    /* don't expose password or any sensitive info, done only for demo */
+    host:'us-cdbr-east-06.cleardb.net',
+    user:'b65083c3f7e22e',
+    password:'9d5dad05',
+    database:'heroku_5cc66aac9d2c713'    
+  },
+  listPerPage: 10,
+};
+module.exports = config;

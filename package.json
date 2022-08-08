@@ -4,7 +4,8 @@
   "description": "\"# apinodejs\" \r \"# apinodejs_users\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "Ivan Massenzio",
